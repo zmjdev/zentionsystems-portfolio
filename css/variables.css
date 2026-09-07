@@ -1,0 +1,68 @@
+/*
+  Design tokens only — no selectors beyond :root.
+  Breakpoints (documented here since they can't be custom properties
+  inside @media conditions): 375px (base/mobile), 768px (tablet), 1024px (desktop).
+*/
+:root {
+  /* Color — graphite & teal */
+  --bg-primary: #14181c;
+  --bg-secondary: #1c2126;
+  --bg-elevated: #23282e;
+  --text-primary: #f4f6f7;
+  --text-secondary: #9aa5ac;
+  --accent: #2dd4bf;
+  --accent-dim: #1a8f80;
+  --border: #2d3339;
+
+  /* Derived / interaction colors */
+  --accent-rgb: 45, 212, 191;
+  --focus-ring: #2dd4bf;
+
+  /* Typography */
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+
+  --fs-xs: 0.8125rem;
+  --fs-sm: 0.9375rem;
+  --fs-base: 1rem;
+  --fs-lg: clamp(1.125rem, 0.5vw + 1rem, 1.25rem);
+  --fs-xl: clamp(1.375rem, 1vw + 1.125rem, 1.75rem);
+  --fs-2xl: clamp(1.75rem, 1.5vw + 1.375rem, 2.25rem);
+  --fs-3xl: clamp(2.25rem, 2.5vw + 1.75rem, 3rem);
+  --fs-hero: clamp(2.5rem, 4vw + 1.5rem, 4.5rem);
+
+  --lh-tight: 1.15;
+  --lh-snug: 1.35;
+  --lh-normal: 1.6;
+
+  /* Spacing — 8px base unit */
+  --space-1: 8px;
+  --space-2: 16px;
+  --space-3: 24px;
+  --space-4: 32px;
+  --space-5: 40px;
+  --space-6: 48px;
+  --space-8: 64px;
+  --space-10: 80px;
+  --space-section: clamp(96px, 8vw, 140px);
+
+  /* Radius */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-full: 999px;
+
+  /* Motion */
+  --ease-standard: cubic-bezier(0.4, 0, 0.2, 1);
+  --duration-fast: 200ms;
+  --duration-base: 400ms;
+  --duration-slow: 700ms;
+  --duration-slower: 900ms;
+
+  /* Layout */
+  --container-max: 1200px;
+  --header-height: 76px;
+}

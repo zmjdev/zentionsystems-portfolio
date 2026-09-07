@@ -1,0 +1,541 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Zention Systems — Built with intention.</title>
+  <meta name="description" content="Zention Systems is a full-stack software development team building web and mobile products end to end — including ZERP, our flagship ERP for vehicle spare parts importers and retailers." />
+  <meta name="theme-color" content="#14181c" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Zention Systems — Built with intention." />
+  <meta property="og:description" content="A full-stack software development team building web and mobile products end to end." />
+  <meta property="og:type" content="website" />
+  <!-- TODO: add og:image once a real 1200x630 social preview graphic exists (assets/images/og-image.png) -->
+
+  <link rel="icon" type="image/svg+xml" href="assets/images/logo.svg" />
+
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/variables.css" />
+  <link rel="stylesheet" href="css/layout.css" />
+  <link rel="stylesheet" href="css/components.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <header class="site-header" data-nav-open="false">
+    <div class="container">
+      <a class="logo" href="#hero">
+        <img class="logo-mark" src="assets/images/logo.svg" alt="" width="28" height="28" />
+        <span>Zention Systems</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="main-nav">
+        <span class="nav-toggle-icon"></span>
+      </button>
+
+      <nav class="main-nav" id="main-nav" aria-label="Primary">
+        <ul class="main-nav-list">
+          <li><a class="nav-link" href="#about">About</a></li>
+          <li><a class="nav-link" href="#what-we-do">What We Do</a></li>
+          <li><a class="nav-link" href="#zerp">ZERP</a></li>
+          <li><a class="nav-link" href="#tech-stack">Tech Stack</a></li>
+          <li><a class="nav-link" href="#portfolio">Portfolio</a></li>
+          <li><a class="nav-link" href="#team">Team</a></li>
+          <li><a class="nav-link" href="#contact">Contact</a></li>
+          <li><a class="btn btn-primary" href="#contact">Get in touch</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <!-- 1. Hero -->
+    <section class="hero" id="hero">
+      <canvas class="hero-canvas" aria-hidden="true"></canvas>
+      <div class="container">
+        <div class="hero-content">
+          <p class="hero-eyebrow">Full-stack software development</p>
+          <h1 class="hero-title">
+            Zention Systems<br />
+            <span class="hero-title-accent">Built with intention.</span>
+          </h1>
+          <p class="hero-sub">
+            We design and build web and mobile products end to end — from a
+            single feature to the systems that run a business.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#contact">Get in touch</a>
+            <a class="btn btn-secondary" href="#zerp">See ZERP</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. About -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-head reveal" data-reveal>
+          <p class="section-eyebrow">About</p>
+          <h2 class="section-title">A full-stack team, six years in.</h2>
+        </div>
+
+        <div class="about-copy reveal" data-reveal>
+          <p>
+            Zention Systems is a full-stack software development team with 6
+            years of industry experience building web and mobile products end
+            to end. We work across the stack — from React and Vue on the
+            frontend to Node, .NET, Go, and PHP on the backend — and ship for
+            both web and mobile.
+          </p>
+          <p>
+            Our flagship product, ZERP, is an ERP system purpose-built for
+            vehicle spare parts importers and retailers, handling everything
+            from inventory and procurement to sales operations for businesses
+            in that space. It reflects how we work: understanding a specific
+            industry's real operational pain points, then building software
+            that fits the way that business actually runs — not a generic
+            template forced onto it.
+          </p>
+          <p>
+            We're currently operating as a startup, taking on new projects
+            while continuing to grow ZERP, and we bring the same full-stack,
+            product-minded approach to every engagement.
+          </p>
+        </div>
+
+        <div class="stats-row">
+          <div class="stat reveal" data-reveal>
+            <span class="stat-number" data-counter data-target="6">0</span>
+            <span class="stat-label">Years Experience</span>
+          </div>
+          <div class="stat reveal" data-reveal>
+            <span class="stat-number" data-counter data-target="6">0</span>
+            <span class="stat-label">Core Technologies</span>
+          </div>
+          <div class="stat reveal" data-reveal>
+            <span class="stat-number" data-counter data-target="1">0</span>
+            <span class="stat-label">Flagship Product</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. What We Do -->
+    <section class="section section--alt" id="what-we-do">
+      <div class="container">
+        <div class="section-head reveal" data-reveal>
+          <p class="section-eyebrow">What We Do</p>
+          <h2 class="section-title">Three ways we build.</h2>
+        </div>
+
+        <div class="grid-pillars">
+          <div class="card reveal" data-reveal>
+            <div class="card-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4" stroke-linecap="round"/></svg>
+            </div>
+            <h3 class="card-title">SaaS Products</h3>
+            <p class="card-text">Multi-tenant products built to scale — from first customer to fleet, with the architecture to support both.</p>
+          </div>
+
+          <div class="card reveal" data-reveal>
+            <div class="card-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.5 3.8 5.7 3.8 9s-1.3 6.5-3.8 9c-2.5-2.5-3.8-5.7-3.8-9S9.5 5.5 12 3z"/></svg>
+            </div>
+            <h3 class="card-title">Web Apps</h3>
+            <p class="card-text">Custom web applications tailored to how your business actually operates, not the other way around.</p>
+          </div>
+
+          <div class="card reveal" data-reveal>
+            <div class="card-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 3l8 4.5v9L12 21l-8-4.5v-9L12 3z"/><path d="M12 12v9M4 7.5l8 4.5 8-4.5" stroke-linecap="round"/></svg>
+            </div>
+            <h3 class="card-title">Standalone Solutions</h3>
+            <p class="card-text">Purpose-built tools and internal systems that solve one specific problem exceptionally well.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Flagship Product: ZERP -->
+    <section class="section" id="zerp">
+      <div class="container">
+        <div class="section-head reveal" data-reveal>
+          <p class="section-eyebrow">Flagship Product</p>
+          <h2 class="section-title">ZERP</h2>
+          <p class="section-lead">An ERP system purpose-built for vehicle spare parts importers and retailers.</p>
+        </div>
+
+        <div class="spotlight">
+          <div class="spotlight-panel reveal" data-reveal>
+            <p class="card-text">
+              ZERP handles everything from inventory and procurement to sales
+              operations for businesses in the vehicle spare parts industry —
+              modeled on how those businesses actually run, not forced into a
+              generic ERP template.
+            </p>
+            <div class="badge-row badge-row--spaced">
+              <span class="badge">Inventory</span>
+              <span class="badge">Procurement</span>
+              <span class="badge">Sales Ops</span>
+              <span class="badge">Multi-branch</span>
+            </div>
+          </div>
+
+          <div class="spotlight-feature-list reveal" data-reveal>
+            <div class="spotlight-feature">
+              <div class="spotlight-feature-icon" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="7" width="18" height="13" rx="1"/><path d="M3 7l3-4h12l3 4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </div>
+              <div>
+                <p class="spotlight-feature-title">Inventory Management</p>
+                <p class="spotlight-feature-text">Real-time stock visibility across warehouses, branches, and suppliers.</p>
+              </div>
+            </div>
+
+            <div class="spotlight-feature">
+              <div class="spotlight-feature-icon" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 4h16v4H4zM4 12h10v8H4zM17 12h3v8h-3z"/></svg>
+              </div>
+              <div>
+                <p class="spotlight-feature-title">Procurement</p>
+                <p class="spotlight-feature-text">Streamlined purchase orders and supplier tracking, built around how parts actually move.</p>
+              </div>
+            </div>
+
+            <div class="spotlight-feature">
+              <div class="spotlight-feature-icon" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 3v18h18" stroke-linecap="round"/><path d="M7 15l4-4 3 3 5-6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </div>
+              <div>
+                <p class="spotlight-feature-title">Sales Operations</p>
+                <p class="spotlight-feature-text">From quote to invoice, tuned for the pace of a busy spare parts counter.</p>
+              </div>
+            </div>
+
+            <div class="spotlight-feature">
+              <div class="spotlight-feature-icon" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M9 12l2 2 4-4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </div>
+              <div>
+                <p class="spotlight-feature-title">Industry-Specific Fit</p>
+                <p class="spotlight-feature-text">Modeled on how vehicle parts businesses actually operate — not a generic ERP template.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. Tech Stack -->
+    <section class="section section--alt" id="tech-stack">
+      <div class="container">
+        <div class="section-head reveal" data-reveal>
+          <p class="section-eyebrow">Tech Stack</p>
+          <h2 class="section-title">A stack we know deeply.</h2>
+          <p class="section-lead">Chosen for the job, not for the résumé. Hover or focus a layer to see it highlighted.</p>
+        </div>
+
+        <div class="stack-diagram-wrap reveal" data-reveal>
+          <svg class="stack-diagram" viewBox="0 0 1000 500" role="img" aria-labelledby="stack-diagram-title" xmlns="http://www.w3.org/2000/svg">
+            <title id="stack-diagram-title">Zention Systems layered technology stack: frontend, backend, and data and infrastructure</title>
+
+            <defs>
+              <symbol id="glyph-spark" viewBox="0 0 24 24">
+                <g stroke="currentColor" stroke-width="1.6" stroke-linecap="round" fill="none">
+                  <line x1="12" y1="3" x2="12" y2="21" />
+                  <line x1="3" y1="12" x2="21" y2="12" />
+                  <line x1="6" y1="6" x2="18" y2="18" />
+                  <line x1="18" y1="6" x2="6" y2="18" />
+                </g>
+              </symbol>
+              <symbol id="glyph-diamond" viewBox="0 0 24 24">
+                <rect x="5" y="5" width="14" height="14" rx="2" transform="rotate(45 12 12)" stroke="currentColor" stroke-width="1.6" fill="none" />
+              </symbol>
+              <symbol id="glyph-rings" viewBox="0 0 24 24">
+                <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.6" fill="none" />
+                <circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.6" fill="none" />
+              </symbol>
+              <symbol id="glyph-square" viewBox="0 0 24 24">
+                <rect x="4" y="4" width="16" height="16" rx="2" stroke="currentColor" stroke-width="1.6" fill="none" />
+              </symbol>
+              <symbol id="glyph-triangle" viewBox="0 0 24 24">
+                <path d="M12 4 L20 19 L4 19 Z" stroke="currentColor" stroke-width="1.6" fill="none" stroke-linejoin="round" />
+              </symbol>
+              <symbol id="glyph-cross-circle" viewBox="0 0 24 24">
+                <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.6" fill="none" />
+                <line x1="12" y1="8" x2="12" y2="16" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" />
+                <line x1="8" y1="12" x2="16" y2="12" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" />
+              </symbol>
+              <symbol id="glyph-stack" viewBox="0 0 24 24">
+                <g stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 3 L21 8 L12 13 L3 8 Z" />
+                  <path d="M3 13 L12 18 L21 13" />
+                  <path d="M3 17.5 L12 22.5 L21 17.5" />
+                </g>
+              </symbol>
+            </defs>
+
+            <path class="connector-path connector-path--1" d="M500,180 C500,196 500,196 500,210" />
+            <path class="connector-path connector-path--2" d="M500,350 C500,372 500,372 500,390" />
+
+            <g class="stack-layer" data-layer="frontend" tabindex="0" role="group" aria-label="Frontend layer: React and Vue">
+              <rect class="stack-layer-band" x="100" y="40" width="800" height="140" rx="16" />
+              <text class="stack-layer-label" x="124" y="70">Frontend</text>
+
+              <g transform="translate(350,130)">
+                <circle class="stack-node-circle" r="34" />
+                <use href="#glyph-spark" class="stack-node-icon" x="-12" y="-22" width="24" height="24" />
+                <text class="stack-node-label" y="54">React</text>
+              </g>
+              <g transform="translate(650,130)">
+                <circle class="stack-node-circle" r="34" />
+                <use href="#glyph-diamond" class="stack-node-icon" x="-12" y="-22" width="24" height="24" />
+                <text class="stack-node-label" y="54">Vue</text>
+              </g>
+            </g>
+
+            <g class="stack-layer" data-layer="backend" tabindex="0" role="group" aria-label="Backend layer: Node, dot NET, Go, and PHP">
+              <rect class="stack-layer-band" x="60" y="210" width="880" height="140" rx="16" />
+              <text class="stack-layer-label" x="84" y="240">Backend</text>
+
+              <g transform="translate(230,280)">
+                <circle class="stack-node-circle" r="30" />
+                <use href="#glyph-rings" class="stack-node-icon" x="-12" y="-20" width="24" height="24" />
+                <text class="stack-node-label" y="50">Node</text>
+              </g>
+              <g transform="translate(410,280)">
+                <circle class="stack-node-circle" r="30" />
+                <use href="#glyph-square" class="stack-node-icon" x="-12" y="-20" width="24" height="24" />
+                <text class="stack-node-label" y="50">.NET</text>
+              </g>
+              <g transform="translate(590,280)">
+                <circle class="stack-node-circle" r="30" />
+                <use href="#glyph-triangle" class="stack-node-icon" x="-12" y="-20" width="24" height="24" />
+                <text class="stack-node-label" y="50">Go</text>
+              </g>
+              <g transform="translate(770,280)">
+                <circle class="stack-node-circle" r="30" />
+                <use href="#glyph-cross-circle" class="stack-node-icon" x="-12" y="-20" width="24" height="24" />
+                <text class="stack-node-label" y="50">PHP</text>
+              </g>
+            </g>
+
+            <g class="stack-layer" data-layer="infra" tabindex="0" role="group" aria-label="Data and infrastructure layer">
+              <rect class="stack-layer-band" x="260" y="390" width="480" height="90" rx="16" />
+              <g transform="translate(500,428)">
+                <use href="#glyph-stack" class="stack-node-icon" x="-12" y="-12" width="24" height="24" />
+              </g>
+              <text class="stack-node-label" x="500" y="465">Data &amp; Infrastructure</text>
+            </g>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. Portfolio -->
+    <!-- PLACEHOLDER: replace this entire section's project cards with real client work and screenshots -->
+    <section class="section" id="portfolio">
+      <div class="container">
+        <div class="section-head reveal" data-reveal>
+          <p class="section-eyebrow">Portfolio</p>
+          <h2 class="section-title">Selected work.</h2>
+        </div>
+
+        <div class="grid-projects">
+          <article class="card project-card reveal" data-reveal>
+            <!-- PLACEHOLDER: replace with real project -->
+            <div class="placeholder-panel">
+              <span class="placeholder-flag">Placeholder</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 15l5-5 4 4 5-6 4 4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              <span>Project Screenshot</span>
+            </div>
+            <h3 class="card-title">Logistics Dashboard</h3>
+            <p class="card-text">Internal tooling for a regional freight company to track shipments and fleet status in real time.</p>
+          </article>
+
+          <article class="card project-card reveal" data-reveal>
+            <!-- PLACEHOLDER: replace with real project -->
+            <div class="placeholder-panel">
+              <span class="placeholder-flag">Placeholder</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 15l5-5 4 4 5-6 4 4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              <span>Project Screenshot</span>
+            </div>
+            <h3 class="card-title">Retail POS Suite</h3>
+            <p class="card-text">A point-of-sale and inventory system for a multi-branch retail chain.</p>
+          </article>
+
+          <article class="card project-card reveal" data-reveal>
+            <!-- PLACEHOLDER: replace with real project -->
+            <div class="placeholder-panel">
+              <span class="placeholder-flag">Placeholder</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 15l5-5 4 4 5-6 4 4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              <span>Project Screenshot</span>
+            </div>
+            <h3 class="card-title">Field Service App</h3>
+            <p class="card-text">A mobile app for scheduling and dispatching field technicians.</p>
+          </article>
+
+          <article class="card project-card reveal" data-reveal>
+            <!-- PLACEHOLDER: replace with real project -->
+            <div class="placeholder-panel">
+              <span class="placeholder-flag">Placeholder</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 15l5-5 4 4 5-6 4 4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              <span>Project Screenshot</span>
+            </div>
+            <h3 class="card-title">Healthcare Booking Platform</h3>
+            <p class="card-text">An appointment and patient management system for a multi-clinic provider.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. How We Work -->
+    <section class="section section--alt" id="how-we-work">
+      <div class="container">
+        <div class="section-head reveal" data-reveal>
+          <p class="section-eyebrow">How We Work</p>
+          <h2 class="section-title">Industry-first, full-stack, product-minded.</h2>
+        </div>
+
+        <div class="grid-pillars">
+          <div class="card reveal" data-reveal>
+            <h3 class="card-title">Industry-First</h3>
+            <p class="card-text">We start by understanding a specific industry's real operational pain points — not by reaching for a generic template.</p>
+          </div>
+          <div class="card reveal" data-reveal>
+            <h3 class="card-title">Full-Stack</h3>
+            <p class="card-text">One team across frontend, backend, and mobile means fewer handoffs and a product that holds together end to end.</p>
+          </div>
+          <div class="card reveal" data-reveal>
+            <h3 class="card-title">Product-Minded</h3>
+            <p class="card-text">We build software that fits how a business actually runs — and keep improving it the way we grow ZERP.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. Team -->
+    <!-- PLACEHOLDER: replace with real team member names, roles, and photos -->
+    <section class="section" id="team">
+      <div class="container">
+        <div class="section-head reveal" data-reveal>
+          <p class="section-eyebrow">Team</p>
+          <h2 class="section-title">The people behind it.</h2>
+        </div>
+
+        <div class="grid-team">
+          <div class="card team-card reveal" data-reveal>
+            <!-- PLACEHOLDER: replace with real team member -->
+            <div class="avatar-placeholder" aria-hidden="true">JD</div>
+            <p class="team-name">Jordan Doe</p>
+            <p class="team-role">Founder &amp; Full-Stack Engineer</p>
+          </div>
+          <div class="card team-card reveal" data-reveal>
+            <!-- PLACEHOLDER: replace with real team member -->
+            <div class="avatar-placeholder" aria-hidden="true">AS</div>
+            <p class="team-name">Alex Silva</p>
+            <p class="team-role">Product &amp; Backend Engineer</p>
+          </div>
+          <div class="card team-card reveal" data-reveal>
+            <!-- PLACEHOLDER: replace with real team member -->
+            <div class="avatar-placeholder" aria-hidden="true">RK</div>
+            <p class="team-name">Riya Kapoor</p>
+            <p class="team-role">Frontend &amp; Mobile Engineer</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 9. Contact -->
+    <section class="section section--alt" id="contact">
+      <div class="container">
+        <div class="section-head reveal" data-reveal>
+          <p class="section-eyebrow">Contact</p>
+          <h2 class="section-title">Let's build something.</h2>
+        </div>
+
+        <div class="contact-layout">
+          <div class="reveal" data-reveal>
+            <!-- PLACEHOLDER: replace with real contact details -->
+            <div class="contact-info-list">
+              <div class="contact-info-item">
+                <div class="contact-info-icon" aria-hidden="true">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </div>
+                <a href="mailto:hello@zentionsystems.com">hello@zentionsystems.com</a>
+              </div>
+              <div class="contact-info-item">
+                <div class="contact-info-icon" aria-hidden="true">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 5c0 8.5 6.5 15 15 15l3-4-6-3-2 2c-2.5-1.3-4.7-3.5-6-6l2-2-3-6-4 0z" stroke-linejoin="round"/></svg>
+                </div>
+                <a href="tel:+94110000000">+94 11 000 0000</a>
+              </div>
+              <div class="contact-info-item">
+                <div class="contact-info-icon" aria-hidden="true">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 21s7-6.5 7-12a7 7 0 10-14 0c0 5.5 7 12 7 12z"/><circle cx="12" cy="9" r="2.5"/></svg>
+                </div>
+                <span>Colombo, Sri Lanka</span>
+              </div>
+            </div>
+
+            <div class="social-row">
+              <a class="social-link" href="#" aria-label="Zention Systems on LinkedIn">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="3"/><line x1="7" y1="10" x2="7" y2="17"/><circle cx="7" cy="7" r="0.5" fill="currentColor"/><path d="M11 17v-4.5a2 2 0 014 0V17M11 12.5V17"/></svg>
+              </a>
+              <a class="social-link" href="#" aria-label="Zention Systems on GitHub">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2-.2 4.5-1 4.5-4.5 0-1-.4-1.8-1-2.5.1-.2.4-1.2-.1-2.5 0 0-.8-.3-2.7 1a9 9 0 00-5 0c-1.9-1.3-2.7-1-2.7-1-.5 1.3-.2 2.3-.1 2.5-.6.7-1 1.5-1 2.5 0 3.5 2.5 4.3 4.5 4.5-.4.4-.5.9-.5 1.5V21"/></svg>
+              </a>
+              <a class="social-link" href="#" aria-label="Zention Systems on X">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 4l16 16M20 4L4 20" stroke-linecap="round"/></svg>
+              </a>
+            </div>
+          </div>
+
+          <form class="form reveal" data-reveal novalidate>
+            <div class="form-field">
+              <label for="contact-name">Name</label>
+              <input id="contact-name" name="name" type="text" autocomplete="name" required />
+            </div>
+            <div class="form-field">
+              <label for="contact-email">Email</label>
+              <input id="contact-email" name="email" type="email" autocomplete="email" required />
+            </div>
+            <div class="form-field">
+              <label for="contact-message">Message</label>
+              <textarea id="contact-message" name="message" required></textarea>
+            </div>
+            <!-- TODO: wire this form up to a real backend/API endpoint. Submission
+                 is currently handled entirely client-side (see js/main.js). -->
+            <button class="btn btn-primary" type="submit">Send message</button>
+            <p class="form-status" role="status" hidden></p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a class="logo" href="#hero">
+        <img class="logo-mark" src="assets/images/logo.svg" alt="" width="24" height="24" />
+        <span>Zention Systems</span>
+      </a>
+
+      <ul class="footer-nav-list">
+        <li><a href="#about">About</a></li>
+        <li><a href="#tech-stack">Tech Stack</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <p class="footer-copy">&copy; 2026 Zention Systems. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
